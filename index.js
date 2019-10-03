@@ -1,6 +1,6 @@
 'use strict';
 
-require('any-observable/register')(require.resolve('rxjs'));
+require('any-observable/register/rxjs');
 
 const pMap = require('p-map');
 const Task = require('./lib/task');
